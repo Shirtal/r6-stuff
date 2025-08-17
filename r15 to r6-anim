@@ -934,5 +934,4 @@ plr.CharacterAdded:Connect(function(Char)
 	RunCustomAnimation(Char)
 end)
 end
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Shirtal/r6-stuff/refs/heads/main/r15%20to%20r6-group.lua"))()
 print("r15 -----> r6 has successfully loaded. originally by Imagnir on github, reworked by yngemz (aka Shirtal on github)")
