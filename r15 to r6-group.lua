@@ -1,5 +1,8 @@
 -- disclaimer: after this disclaimer all things are in beta and are not guranteed to work in some cases. it does have CFrame, so animations should work with it.
-
+if game:GetService("Players").LocalPlayer.Character:FindFirstChild("Left Arm") then
+	warn("grouped")
+else
+game:GetService(‘RunService’).Heartbeat:Connect(function()
 local lefta = Instance.new("Model")
 lefta.Parent = plr.Character
 lefta.Name = "Left Arm"
@@ -47,3 +50,4 @@ local lt = plr.Character.LowerTorso
 local ut = plr.Character.UpperTorso
 lt.Parent = tor
 ut.Parent = tor
+end)
