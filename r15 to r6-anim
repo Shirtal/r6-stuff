@@ -933,4 +933,5 @@ RunCustomAnimation(plr.Character)
 plr.CharacterAdded:Connect(function(Char)
 	RunCustomAnimation(Char)
 end)
+end
 print("r15 -----> r6 has successfully loaded. originally by Imagnir on github, reworked by yngemz (aka Shirtal on github)")
